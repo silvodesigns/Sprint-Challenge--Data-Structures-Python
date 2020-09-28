@@ -55,7 +55,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 # # Store the first list in a binary search tree
 names_1_binary = BSTNode(names_1[0])
 for name in names_1:
-     names_1_tree.insert(name)
+     names_1_binary.insert(name)
 
 # # Use a contains method to compare with the second list
 for name in names_2:

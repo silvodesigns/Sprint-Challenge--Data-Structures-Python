@@ -45,14 +45,17 @@ class LinkedList:
                 self.reverse_list(next, node)
             else:
                 self.head = prev #set head equal to last node
+            # prev = None
+            # current = self.head
+            # while current:
+            #     nxt = current.next_node  
+            #     current.next_node = prev
+            #     prev = current
+            #     current = nxt
+            # self.head = prev
 
-    #    prev = None
-    #    current = self.head
-    #    #run until not equal to None
-    #    while current:
-    #        nxt = current.next
-    #        current.next = prev
-    #        prev = current
-    #        current = nxt 
-    #    self.head = prev
 
+# ll = LinkedList()
+# ll.add_to_head(1)
+# ll.add_to_head(2)
+# ll.reverse_list()
